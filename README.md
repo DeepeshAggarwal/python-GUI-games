@@ -13,3 +13,10 @@ sudo apt-get install python-pygame
 Check
 -----------
 To check if the installation is done well try to run this [script](goo.gl/YzhcHN)
+
+
+Usage
+---------
+```
+sudo python filename.py
+```
