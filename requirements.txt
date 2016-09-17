@@ -1,2 +1,3 @@
 #simplegui
 SimpleGUICS2Pygame
+matplotlib
