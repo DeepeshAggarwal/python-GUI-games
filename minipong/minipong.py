@@ -14,13 +14,10 @@ BALL_POSITION = [WIDTH//2 , HEIGHT//2]
 VELOCITY = [1.5,-1]
 
 def re_start():
-    global BAR_LEFT_POSITION , BAR_RIGHT_POSITION , BALL_POSITION ,VELOCITY, PLAYER1, PLAYER2
-    BAR_LEFT_POSITION = [5 , HEIGHT//2-40]
+    global PLAYER1, PLAYER2
     PLAYER1 = 0
     PLAYER2 = 0
-    BAR_RIGHT_POSITION = [WIDTH-5, HEIGHT//2-40]
-    BALL_POSITION = [WIDTH//2 , HEIGHT//2]
-    VELOCITY = [1.5,-0.7]
+    new_game()
 
 
 # defining the helper functions
